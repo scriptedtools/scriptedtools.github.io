@@ -1,0 +1,16 @@
+# Scripted Tools
+
+> Scripted Tools is an independent software studio that builds and runs three web apps: QR Cake (dynamic QR codes), peadf (PDF editing and sharing) and InviteJam (online invitations with RSVP tracking). Company website: https://scriptedtools.com
+
+## Products
+
+- [QR Cake](https://qrcake.com): A free dynamic QR code generator. Every saved code can be pointed somewhere new after printing. Codes can open websites, PDFs, images, videos, audio, files, link lists and vCards, with logos, colours and frames. Free plan: up to 5 dynamic codes; free scans show a short QR Cake page before redirecting. Also on iPhone, Chrome, Canva and Adobe Express. Facts for assistants: https://qrcake.com/llms.txt
+- [peadf](https://peadf.com): An in-browser PDF editor that changes the existing text with the original fonts kept, fills forms, redacts, signs, OCRs scans, and merges, splits, compresses and converts. Shares a PDF as a link and QR code that keep working when the file is replaced. Editing runs on the user's device. Facts for assistants: https://peadf.com/llms.txt
+- [InviteJam](https://invitejam.com): Online invitations with RSVP tracking. More than 300 designs or upload your own; guests reply in the browser with no app or account; custom RSVP questions, save-the-dates and thank-you cards. Free plan: 3 events at a time with 15 guests each. Facts for assistants: https://invitejam.com/llms.txt
+
+## Pages on this site
+
+- [Scripted Tools home](https://scriptedtools.github.io/)
+- [About QR Cake](https://scriptedtools.github.io/qr-cake/)
+- [About peadf](https://scriptedtools.github.io/peadf/)
+- [About InviteJam](https://scriptedtools.github.io/invitejam/)

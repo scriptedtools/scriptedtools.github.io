@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scripted Tools: makers of QR Cake, peadf and InviteJam</title>
+  <meta name="description" content="Scripted Tools makes QR Cake for dynamic QR codes, peadf for editing and sharing PDFs, and InviteJam for online invitations with RSVP tracking.">
+  <link rel="canonical" href="https://scriptedtools.github.io/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#203547">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Scripted Tools">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:url" content="https://scriptedtools.github.io/">
+  <meta property="og:title" content="Scripted Tools: makers of QR Cake, peadf and InviteJam">
+  <meta property="og:description" content="Small web tools for the things you print, share and send: dynamic QR codes, PDF editing and sharing, and online invitations with RSVPs.">
+  <meta property="og:image" content="https://scriptedtools.github.io/assets/og/home.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A QR code sticker, a PDF menu and an invitation envelope on a cutting mat">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&text=Kindly%20deliver%20to&display=swap">
+  <link rel="stylesheet" href="/assets/site.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://scriptedtools.com/#organization",
+        "name": "Scripted Tools",
+        "alternateName": "ScriptedTools",
+        "url": "https://scriptedtools.com",
+        "logo": "https://scriptedtools.com/logo.svg",
+        "sameAs": ["https://github.com/scriptedtools", "https://scriptedtools.github.io/"],
+        "subOrganization": [
+          { "@id": "https://qrcake.com/#organization" },
+          { "@id": "https://peadf.com/#organization" },
+          { "@id": "https://invitejam.com/#organization" }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://qrcake.com/#organization",
+        "name": "QR Cake",
+        "url": "https://qrcake.com",
+        "parentOrganization": { "@id": "https://scriptedtools.com/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://peadf.com/#organization",
+        "name": "peadf",
+        "url": "https://peadf.com",
+        "parentOrganization": { "@id": "https://scriptedtools.com/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://invitejam.com/#organization",
+        "name": "InviteJam",
+        "url": "https://invitejam.com",
+        "parentOrganization": { "@id": "https://scriptedtools.com/#organization" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://scriptedtools.github.io/#website",
+        "url": "https://scriptedtools.github.io/",
+        "name": "Scripted Tools",
+        "inLanguage": "en-GB",
+        "publisher": { "@id": "https://scriptedtools.com/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://scriptedtools.github.io/#webpage",
+        "url": "https://scriptedtools.github.io/",
+        "name": "Scripted Tools: makers of QR Cake, peadf and InviteJam",
+        "isPartOf": { "@id": "https://scriptedtools.github.io/#website" },
+        "about": { "@id": "https://scriptedtools.com/#organization" },
+        "mainEntity": { "@id": "https://scriptedtools.github.io/#products" }
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://scriptedtools.github.io/#products",
+        "name": "Products by Scripted Tools",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "item": { "@id": "https://scriptedtools.github.io/qr-cake/#software" } },
+          { "@type": "ListItem", "position": 2, "item": { "@id": "https://scriptedtools.github.io/peadf/#software" } },
+          { "@type": "ListItem", "position": 3, "item": { "@id": "https://scriptedtools.github.io/invitejam/#software" } }
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://scriptedtools.github.io/qr-cake/#software",
+        "name": "QR Cake",
+        "url": "https://qrcake.com/",
+        "description": "Free dynamic QR code generator. Add a logo, change where a code points after printing and manage every code in one dashboard.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web, iOS",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
+        "publisher": { "@id": "https://qrcake.com/#organization" },
+        "creator": { "@id": "https://scriptedtools.com/#organization" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://scriptedtools.github.io/peadf/#software",
+        "name": "peadf",
+        "url": "https://peadf.com/",
+        "description": "Edit the real text in a PDF, fill forms, redact and sign in your browser, then share the file as a link and QR code that never change.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
+        "publisher": { "@id": "https://peadf.com/#organization" },
+        "creator": { "@id": "https://scriptedtools.com/#organization" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://scriptedtools.github.io/invitejam/#software",
+        "name": "InviteJam",
+        "url": "https://invitejam.com/",
+        "description": "Online invitations with RSVP tracking. Pick a design or upload your own, share one link and keep every reply in one guest list.",
+        "applicationCategory": "LifestyleApplication",
+        "operatingSystem": "Web",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
+        "publisher": { "@id": "https://invitejam.com/#organization" },
+        "creator": { "@id": "https://scriptedtools.com/#organization" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Scripted Tools home">
+        <picture>
+          <source srcset="/assets/img/scripted-tools-logo-light.svg" media="(prefers-color-scheme: dark)">
+          <img src="/assets/img/scripted-tools-logo.svg" alt="Scripted Tools" width="92" height="51">
+        </picture>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/qr-cake/">QR Cake</a></li>
+          <li><a href="/peadf/">peadf</a></li>
+          <li><a href="/invitejam/">InviteJam</a></li>
+          <li><a href="https://github.com/scriptedtools">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero__intro">
+        <h1 id="hero-title">Small web tools for the things you print, share and send.</h1>
+        <p class="lede">Scripted Tools is an independent software studio. We build and run QR Cake, peadf and InviteJam: three web apps for jobs that don’t end when you hit print. QR codes you can redirect after printing, PDF links you can update without re-sharing, and invitations that collect the replies for you.</p>
+      </div>
+
+      <div class="mat">
+        <ol class="ruler" aria-hidden="true">
+          <li>0</li><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li>
+        </ol>
+        <ul class="desk">
+          <li>
+            <a class="item" href="/qr-cake/" style="--rot: -5deg">
+              <span class="obj sticker" aria-hidden="true">
+                <img src="/assets/img/qrcake-qr.svg" alt="" width="168" height="168">
+                <span class="frame">Scan for qrcake.com</span>
+              </span>
+              <span class="caption"><b>QR Cake</b><span>Dynamic QR codes you can edit after printing</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="item" href="/peadf/" style="--rot: 3deg">
+              <span class="obj paper" aria-hidden="true"><span class="sheet">
+                <span class="title">Spring menu</span>
+                <span class="sub">The Orchard Kitchen</span>
+                <span class="head">Mains</span>
+                <span class="row"><span>Wild garlic soup</span><span>6.50</span></span>
+                <span class="row edit"><span>Pea &amp; mint risotto</span><i>13.00</i></span>
+                <span class="row"><span>Spring lamb</span><span>18.00</span></span>
+                <span class="head">Puddings</span>
+                <span class="row"><span>Lemon tart</span><span>5.50</span></span>
+                <span class="row"><span>Rhubarb fool</span><span>6.00</span></span>
+                <span class="foot">Page 1 of 2</span></span>
+              </span>
+              <span class="caption"><b>peadf</b><span>Edit the real text in a PDF, then share it as a link</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="item" href="/invitejam/" style="--rot: -2.5deg">
+              <span class="obj envelope" aria-hidden="true">
+                <span class="stamp"><img src="/assets/img/invitejam-icon.png" alt="" width="40" height="48"></span>
+                <span class="postmark"></span>
+                <span class="to">Kindly deliver to</span>
+                <span class="name">SAM TAYLOR</span>
+              </span>
+              <span class="caption"><b>InviteJam</b><span>Online invitations with RSVP tracking</span></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="wrap section">
+      <section class="product p-qr" id="qr-cake" aria-labelledby="qr-cake-title">
+        <div class="product__side">
+          <span class="label"><img src="/assets/img/qr-cake-logo.png" alt="QR Cake logo" width="117" height="34"></span><br>
+          <a class="domain" href="https://qrcake.com/">qrcake.com</a>
+        </div>
+        <div>
+          <h2 id="qr-cake-title">QR Cake: a free dynamic QR code generator</h2>
+          <p>QR Cake makes QR codes you can point somewhere new after they’re printed. Every code saved to your account is dynamic, so a menu, a flyer or a box of packaging never has to be reprinted because a link changed.</p>
+          <p>A code can open a website, a PDF, a video, an image gallery, a contact card or a list of links. Add your logo, choose colours and a frame, and download PNG or SVG files ready for print. Scan analytics and custom domains come with the Pro and Business plans.</p>
+          <dl class="facts">
+            <div><dt>Website</dt><dd><a href="https://qrcake.com/">qrcake.com</a></dd></div>
+            <div><dt>Free plan</dt><dd>Up to 5 dynamic QR codes, no card needed. Scans of free codes show a short QR Cake page before the link opens.</dd></div>
+            <div><dt>Works in</dt><dd>Any browser, the iPhone app, Chrome, Canva and Adobe Express.</dd></div>
+            <div><dt>Languages</dt><dd>38</dd></div>
+          </dl>
+          <h3>Popular on qrcake.com</h3>
+          <ul class="links">
+            <li><a href="https://qrcake.com/free-dynamic-qr-code-generator">Free dynamic QR code generator</a></li>
+            <li><a href="https://qrcake.com/qr-code-with-logo">QR code with a logo</a></li>
+            <li><a href="https://qrcake.com/pdf-qr-code-generator">PDF QR code generator</a></li>
+            <li><a href="https://qrcake.com/qr-codes-for-restaurant-menus">QR codes for restaurant menus</a></li>
+            <li><a href="https://qrcake.com/vcard-qr-code-generator">vCard business card QR code</a></li>
+            <li><a href="https://qrcake.com/review-qr-code-generator">Google review QR code</a></li>
+            <li><a href="https://qrcake.com/qr-code-generator-no-expiry">QR codes that never expire</a></li>
+            <li><a href="https://qrcake.com/scan-qr-code-from-image">Scan a QR code from an image</a></li>
+          </ul>
+          <p class="actions">
+            <a class="btn btn--solid" href="https://qrcake.com/">Make a QR code on qrcake.com</a>
+            <a class="btn" href="/qr-cake/">More about QR Cake</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="product p-pea" id="peadf" aria-labelledby="peadf-title">
+        <div class="product__side">
+          <span class="label"><img src="/assets/img/peadf-logo.png" alt="peadf logo" width="122" height="34"></span><br>
+          <a class="domain" href="https://peadf.com/">peadf.com</a>
+        </div>
+        <div>
+          <h2 id="peadf-title">peadf: edit and share PDFs in your browser</h2>
+          <p>peadf edits the text that’s already in a PDF. Click a line and retype it, and the original font, size and colour stay as they were. It also fills in forms, redacts, signs and reads scanned pages. The editing happens on your own device, so nothing is uploaded unless you ask for a share link.</p>
+          <p>When you do share, peadf hosts the file on one tidy link with a matching QR code. Replace the PDF later and the link and code keep working, and you can see how many people have opened it.</p>
+          <dl class="facts">
+            <div><dt>Website</dt><dd><a href="https://peadf.com/">peadf.com</a></dd></div>
+            <div><dt>Free to use</dt><dd>The editor and PDF tools work in the browser with no watermark and no sign-up to start. Sharing has a free plan too.</dd></div>
+            <div><dt>Privacy</dt><dd>Editing runs in your browser. Files stay on your device unless you share them.</dd></div>
+            <div><dt>Works with</dt><dd>Designs from Canva, Figma and Adobe, sent straight to a PDF link.</dd></div>
+          </dl>
+          <h3>Popular on peadf.com</h3>
+          <ul class="links">
+            <li><a href="https://peadf.com/tools/edit-pdf-text">Edit PDF text</a></li>
+            <li><a href="https://peadf.com/tools/fill-pdf">Fill in a PDF form</a></li>
+            <li><a href="https://peadf.com/tools/redact-pdf">Redact a PDF</a></li>
+            <li><a href="https://peadf.com/tools/sign-pdf">Sign a PDF</a></li>
+            <li><a href="https://peadf.com/tools/edit-scanned-pdf">Edit a scanned PDF</a></li>
+            <li><a href="https://peadf.com/tools/merge-pdf">Merge PDF files</a></li>
+            <li><a href="https://peadf.com/tools/compress-pdf">Compress a PDF</a></li>
+            <li><a href="https://peadf.com/use-cases/qr-code-for-restaurant-menu">QR code for a menu PDF</a></li>
+          </ul>
+          <p class="actions">
+            <a class="btn btn--solid" href="https://peadf.com/">Edit a PDF on peadf.com</a>
+            <a class="btn" href="/peadf/">More about peadf</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="product p-jam" id="invitejam" aria-labelledby="invitejam-title">
+        <div class="product__side">
+          <span class="label"><img src="/assets/img/invitejam-logo.png" alt="InviteJam logo" width="115" height="34"></span><br>
+          <a class="domain" href="https://invitejam.com/">invitejam.com</a>
+        </div>
+        <div>
+          <h2 id="invitejam-title">InviteJam: online invitations with RSVP tracking</h2>
+          <p>InviteJam sends invitations by link and keeps every reply in one guest list. Pick one of more than 300 designs, many of them drawn by hand, or upload one you made in Canva or anywhere else, then write your details on the card.</p>
+          <p>Guests open an envelope addressed to them and reply in the browser, with no app and no account. Ask what you need to know, such as meal choices, dietary needs, plus-ones or song requests, and the answers line up beside each name. Save-the-dates and thank-you cards come in matching designs.</p>
+          <dl class="facts">
+            <div><dt>Website</dt><dd><a href="https://invitejam.com/">invitejam.com</a></dd></div>
+            <div><dt>Free plan</dt><dd>3 events at a time with up to 15 guests each. Free invitations carry a small InviteJam banner.</dd></div>
+            <div><dt>Bigger events</dt><dd>Pay once per event by guest count, or choose the yearly Pro plan.</dd></div>
+            <div><dt>Languages</dt><dd>7, chosen per event</dd></div>
+          </dl>
+          <h3>Popular on invitejam.com</h3>
+          <ul class="links">
+            <li><a href="https://invitejam.com/invitations/wedding">Wedding invitations</a></li>
+            <li><a href="https://invitejam.com/invitations/birthday">Birthday invitations</a></li>
+            <li><a href="https://invitejam.com/invitations/kids-party">Kids’ party invitations</a></li>
+            <li><a href="https://invitejam.com/invitations/baby-shower">Baby shower invitations</a></li>
+            <li><a href="https://invitejam.com/rsvp-tracker">RSVP tracker</a></li>
+            <li><a href="https://invitejam.com/online-rsvp">Online RSVP</a></li>
+            <li><a href="https://invitejam.com/thank-you-letters">Thank-you cards</a></li>
+            <li><a href="https://invitejam.com/evite-alternative">An Evite alternative</a></li>
+          </ul>
+          <p class="actions">
+            <a class="btn btn--solid" href="https://invitejam.com/">Create an invitation on invitejam.com</a>
+            <a class="btn" href="/invitejam/">More about InviteJam</a>
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <section class="wrap section" aria-labelledby="together-title">
+      <header>
+        <h2 id="together-title">Using them together</h2>
+        <p>The three apps are independent, but they cover neighbouring jobs. Here’s how they fit together on a few real projects.</p>
+      </header>
+      <div class="together">
+        <article>
+          <h3>A restaurant menu</h3>
+          <p>Keep the menu as a PDF and <a href="https://peadf.com/for/edit-menu-pdf">fix a price by retyping it in peadf</a>. Put a <a href="https://qrcake.com/qr-codes-for-restaurant-menus">QR Cake code with your logo</a> on each table. When the menu changes, swap the PDF and the code on the table stays the same.</p>
+          <ul class="uses"><li class="p-pea">peadf</li><li class="p-qr">QR Cake</li></ul>
+        </article>
+        <article>
+          <h3>A wedding</h3>
+          <p>Send <a href="https://invitejam.com/invitations/wedding">save-the-dates and wedding invitations with InviteJam</a> and collect meal choices with the RSVP. On the day, a <a href="https://qrcake.com/wedding-qr-code-generator">wedding QR code</a> on the place cards can open the <a href="https://peadf.com/use-cases/wedding-pdf-qr-code">order of service as a PDF link</a>.</p>
+          <ul class="uses"><li class="p-jam">InviteJam</li><li class="p-qr">QR Cake</li><li class="p-pea">peadf</li></ul>
+        </article>
+        <article>
+          <h3>Product packaging</h3>
+          <p>Print a <a href="https://qrcake.com/qr-codes-for-packaging">QR code on the packaging</a> that opens the <a href="https://peadf.com/use-cases/product-manual-qr-code">product manual hosted on peadf</a>. Update the manual and the printed code still lands on the latest version.</p>
+          <ul class="uses"><li class="p-qr">QR Cake</li><li class="p-pea">peadf</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap section about" aria-labelledby="about-title">
+      <div>
+        <img class="gear" src="/favicon.svg" alt="" width="120" height="120">
+      </div>
+      <div>
+        <h2 id="about-title">About Scripted Tools</h2>
+        <p style="margin-top: 1rem">Scripted Tools designs, builds and runs its own software. Each product does one job, works in a web browser and has a free plan, so you can try it properly before paying for anything.</p>
+        <p>This site is the studio’s home on GitHub Pages, next to the <a href="https://github.com/scriptedtools">Scripted Tools organisation on GitHub</a>. The company website is <a href="https://scriptedtools.com/">scriptedtools.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <nav aria-labelledby="foot-products">
+        <h2 id="foot-products">Products</h2>
+        <ul>
+          <li><a href="/qr-cake/">QR Cake</a></li>
+          <li><a href="/peadf/">peadf</a></li>
+          <li><a href="/invitejam/">InviteJam</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="foot-apps">
+        <h2 id="foot-apps">Open the apps</h2>
+        <ul>
+          <li><a href="https://qrcake.com/">qrcake.com</a></li>
+          <li><a href="https://peadf.com/">peadf.com</a></li>
+          <li><a href="https://invitejam.com/">invitejam.com</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="foot-studio">
+        <h2 id="foot-studio">Scripted Tools</h2>
+        <ul>
+          <li><a href="https://scriptedtools.com/">scriptedtools.com</a></li>
+          <li><a href="https://github.com/scriptedtools">GitHub</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </nav>
+      <p class="fine">© 2026 Scripted Tools. QR Cake, peadf and InviteJam are made by Scripted Tools.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>peadf: edit and share PDFs in your browser | Scripted Tools</title>
+  <meta name="description" content="peadf is a free in-browser PDF editor by Scripted Tools. Edit the real text in a PDF, fill forms, redact and sign, then share it as a link and QR code.">
+  <link rel="canonical" href="https://scriptedtools.github.io/peadf/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#203547">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Scripted Tools">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:url" content="https://scriptedtools.github.io/peadf/">
+  <meta property="og:title" content="peadf: edit and share PDFs in your browser">
+  <meta property="og:description" content="Retype the real text in any PDF with the original fonts kept, then share it as one link and QR code you can update anytime.">
+  <meta property="og:image" content="https://scriptedtools.github.io/assets/og/peadf.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A PDF menu with one line being edited, on a cutting mat">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">
+  <link rel="stylesheet" href="/assets/site.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://scriptedtools.github.io/peadf/#webpage",
+        "url": "https://scriptedtools.github.io/peadf/",
+        "name": "peadf: edit and share PDFs in your browser",
+        "inLanguage": "en-GB",
+        "isPartOf": { "@id": "https://scriptedtools.github.io/#website" },
+        "about": { "@id": "https://scriptedtools.github.io/peadf/#software" },
+        "breadcrumb": { "@id": "https://scriptedtools.github.io/peadf/#breadcrumb" },
+        "primaryImageOfPage": "https://scriptedtools.github.io/assets/og/peadf.png"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://scriptedtools.github.io/peadf/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Scripted Tools", "item": "https://scriptedtools.github.io/" },
+          { "@type": "ListItem", "position": 2, "name": "peadf", "item": "https://scriptedtools.github.io/peadf/" }
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://scriptedtools.github.io/peadf/#software",
+        "name": "peadf",
+        "url": "https://peadf.com/",
+        "description": "peadf is an in-browser PDF suite. It edits the existing text in a PDF with the original fonts kept, fills forms, redacts, signs, merges, splits, compresses and converts, then shares the file as a link and QR code that never change.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "image": "https://scriptedtools.github.io/assets/img/peadf-icon.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP", "description": "PDF editor and tools free to use in the browser" },
+        "featureList": [
+          "Edit existing PDF text with the original font, size and colour kept",
+          "Fill PDF forms and sign PDFs",
+          "True redaction that removes the content underneath",
+          "OCR for scanned PDFs on your device",
+          "Merge, split, compress, rotate, crop and convert PDFs",
+          "Share a PDF as a link and QR code that keep working when the file is replaced",
+          "View analytics for shared PDFs"
+        ],
+        "publisher": { "@id": "https://peadf.com/#organization" },
+        "creator": { "@id": "https://scriptedtools.com/#organization" },
+        "sameAs": [
+          "https://www.producthunt.com/products/peadf-2",
+          "https://www.trustpilot.com/review/peadf.com"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://peadf.com/#organization",
+        "name": "peadf",
+        "url": "https://peadf.com",
+        "parentOrganization": { "@id": "https://scriptedtools.com/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://scriptedtools.com/#organization",
+        "name": "Scripted Tools",
+        "url": "https://scriptedtools.com",
+        "sameAs": ["https://github.com/scriptedtools", "https://scriptedtools.github.io/"]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="p-pea">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Scripted Tools home">
+        <picture>
+          <source srcset="/assets/img/scripted-tools-logo-light.svg" media="(prefers-color-scheme: dark)">
+          <img src="/assets/img/scripted-tools-logo.svg" alt="Scripted Tools" width="92" height="51">
+        </picture>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/qr-cake/">QR Cake</a></li>
+          <li><a href="/peadf/" aria-current="page">peadf</a></li>
+          <li><a href="/invitejam/">InviteJam</a></li>
+          <li><a href="https://github.com/scriptedtools">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Scripted Tools</a></li>
+        <li><span aria-current="page">peadf</span></li>
+      </ol>
+    </nav>
+
+    <section class="p-hero" aria-labelledby="title">
+      <div>
+        <span class="label"><img src="/assets/img/peadf-logo.png" alt="peadf logo" width="162" height="45"></span>
+        <h1 id="title">peadf, the PDF editor that edits the real text</h1>
+        <p class="lede">peadf lets you retype the words already in a PDF, fill in forms, redact and sign, all in your browser. When you’re done, share the file as one link and QR code that keep working even after you swap in a new version.</p>
+        <p class="actions">
+          <a class="btn btn--solid" href="https://peadf.com/tools/edit-pdf">Edit a PDF on peadf.com</a>
+          <a class="btn" href="https://peadf.com/for">Find help with a document</a>
+        </p>
+      </div>
+      <div class="mat">
+        <ol class="ruler" aria-hidden="true"><li>0</li><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li></ol>
+        <a class="item" href="https://peadf.com/tools/edit-pdf-text" style="--rot: 3deg">
+          <span class="obj paper" aria-hidden="true"><span class="sheet">
+            <span class="title">Spring menu</span>
+            <span class="sub">The Orchard Kitchen</span>
+            <span class="head">Mains</span>
+            <span class="row"><span>Wild garlic soup</span><span>6.50</span></span>
+            <span class="row edit"><span>Pea &amp; mint risotto</span><i>13.00</i></span>
+            <span class="row"><span>Spring lamb</span><span>18.00</span></span>
+            <span class="head">Puddings</span>
+            <span class="row"><span>Lemon tart</span><span>5.50</span></span>
+            <span class="row"><span>Rhubarb fool</span><span>6.00</span></span>
+            <span class="foot">Page 1 of 2</span></span>
+          </span>
+          <span class="caption"><b>Edit PDF text online</b><span>Click a line, retype the price, keep the original font</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="glance">
+      <header><h2 id="glance">peadf at a glance</h2></header>
+      <dl class="facts">
+        <div><dt>Website</dt><dd><a href="https://peadf.com/">peadf.com</a></dd></div>
+        <div><dt>What it is</dt><dd>A PDF editor and PDF sharing service that runs in your browser</dd></div>
+        <div><dt>Free to use</dt><dd>The editor and PDF tools work in the browser with no watermark and no sign-up to start editing. Downloading an edited PDF needs an account; see <a href="https://peadf.com/#pricing">peadf pricing</a>.</dd></div>
+        <div><dt>Sharing</dt><dd>Hosting a PDF as a link has a free plan. Paid plans add more PDFs, no ads for visitors, custom domains and view analytics.</dd></div>
+        <div><dt>Privacy</dt><dd>Editing happens on your device. Nothing is uploaded unless you ask for a share link.</dd></div>
+        <div><dt>Works with</dt><dd>Designs from Canva, Figma and Adobe, sent straight to a PDF link and QR code</dd></div>
+        <div><dt>Made by</dt><dd><a href="/">Scripted Tools</a></dd></div>
+      </dl>
+    </section>
+
+    <section class="section prose" aria-labelledby="what">
+      <header><h2 id="what">What peadf does</h2></header>
+      <h3>Edits the text that’s already there</h3>
+      <p>Many online PDF editors put a new text box over the old words. peadf changes the existing text instead: click a line and retype it, and the embedded font, size and colour are kept while the paragraph re-wraps around your change. Find and replace works across every page, so you can <a href="https://peadf.com/for/edit-pdf-without-losing-formatting">edit a PDF without losing its formatting</a> or <a href="https://peadf.com/for/fix-a-typo-in-a-pdf">fix a typo in a PDF</a> in seconds.</p>
+      <h3>Forms, signatures and real redaction</h3>
+      <p>Type into real form fields, tick boxes and choose from dropdowns, then flatten the form or keep it editable. Draw, type or upload a signature, or <a href="https://peadf.com/tools/send-pdf-for-signature">send a PDF to someone else to sign</a> in their browser. When you <a href="https://peadf.com/tools/redact-pdf">redact a PDF</a>, the content under the box is destroyed rather than hidden, so it can’t be copied back out.</p>
+      <h3>Scans, pages and file size</h3>
+      <p>peadf can read the text on a scan so you can <a href="https://peadf.com/tools/edit-scanned-pdf">edit a scanned PDF</a>, and it does the recognition on your device. It also merges, splits, rotates, crops and reorders pages, adds page numbers or a watermark, compresses large files, and adds or removes a password.</p>
+      <h3>Share a PDF as a link and QR code</h3>
+      <p>Upload a PDF and peadf hosts it on a clean link that anyone can open in their browser, with no download, app or sign-up. Every file comes with a high-resolution QR code in PNG or SVG for menus, posters and packaging. Replace the file later and every link and code points to the new version, and you can see how many times it was opened, when and where.</p>
+    </section>
+
+    <section class="section" aria-labelledby="start">
+      <header>
+        <h2 id="start">Start on peadf.com</h2>
+        <p>Each link opens the matching tool or guide on peadf.com.</p>
+      </header>
+      <div class="cols">
+        <div>
+          <h3>Edit a PDF</h3>
+          <ul>
+            <li><a href="https://peadf.com/tools/edit-pdf">Edit PDF online</a></li>
+            <li><a href="https://peadf.com/tools/edit-pdf-text">Edit PDF text</a></li>
+            <li><a href="https://peadf.com/tools/add-text-to-pdf">Add text to a PDF</a></li>
+            <li><a href="https://peadf.com/tools/remove-text-from-pdf">Remove text from a PDF</a></li>
+            <li><a href="https://peadf.com/tools/whiteout-pdf">White out a PDF</a></li>
+            <li><a href="https://peadf.com/tools/change-pdf-font-size">Change PDF font size</a></li>
+            <li><a href="https://peadf.com/tools/replace-image-in-pdf">Replace an image in a PDF</a></li>
+            <li><a href="https://peadf.com/tools/edit-scanned-pdf">Edit a scanned PDF</a></li>
+            <li><a href="https://peadf.com/tools/edit-pdf-without-acrobat">Edit a PDF without Acrobat</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Forms, signing and privacy</h3>
+          <ul>
+            <li><a href="https://peadf.com/tools/fill-pdf">Fill in a PDF form</a></li>
+            <li><a href="https://peadf.com/tools/tick-a-box-in-pdf">Tick a box in a PDF</a></li>
+            <li><a href="https://peadf.com/tools/sign-pdf">Sign a PDF</a></li>
+            <li><a href="https://peadf.com/tools/send-pdf-for-signature">Send a PDF for signature</a></li>
+            <li><a href="https://peadf.com/tools/redact-pdf">Redact a PDF</a></li>
+            <li><a href="https://peadf.com/tools/protect-pdf">Password-protect a PDF</a></li>
+            <li><a href="https://peadf.com/tools/unlock-pdf">Unlock a PDF</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Pages and files</h3>
+          <ul>
+            <li><a href="https://peadf.com/tools/merge-pdf">Merge PDF files</a></li>
+            <li><a href="https://peadf.com/tools/split-pdf">Split a PDF</a></li>
+            <li><a href="https://peadf.com/tools/compress-pdf">Compress a PDF</a></li>
+            <li><a href="https://peadf.com/tools/rotate-pdf">Rotate PDF pages</a></li>
+            <li><a href="https://peadf.com/tools/organize-pdf">Reorder PDF pages</a></li>
+            <li><a href="https://peadf.com/tools/delete-pages">Delete pages from a PDF</a></li>
+            <li><a href="https://peadf.com/tools/extract-pages">Extract pages from a PDF</a></li>
+            <li><a href="https://peadf.com/tools/page-numbers">Add page numbers to a PDF</a></li>
+            <li><a href="https://peadf.com/tools/watermark-pdf">Watermark a PDF</a></li>
+            <li><a href="https://peadf.com/tools/jpg-to-pdf">JPG to PDF</a></li>
+            <li><a href="https://peadf.com/tools/pdf-to-jpg">PDF to JPG</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Share a PDF with a QR code</h3>
+          <ul>
+            <li><a href="https://peadf.com/use-cases/qr-code-for-restaurant-menu">QR code for a restaurant menu</a></li>
+            <li><a href="https://peadf.com/use-cases/resume-pdf-link">Share a CV as a PDF link</a></li>
+            <li><a href="https://peadf.com/use-cases/price-list-pdf-qr-code">Price list PDF with a QR code</a></li>
+            <li><a href="https://peadf.com/use-cases/event-flyer-qr-code">Event flyer QR code</a></li>
+            <li><a href="https://peadf.com/use-cases/product-manual-qr-code">Product manual QR code</a></li>
+            <li><a href="https://peadf.com/use-cases/wedding-pdf-qr-code">Wedding PDF QR code</a></li>
+            <li><a href="https://peadf.com/use-cases/real-estate-brochure-qr-code">Real estate brochure QR code</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Guides</h3>
+          <ul>
+            <li><a href="https://peadf.com/guides/how-to-edit-a-pdf-on-mac">How to edit a PDF on a Mac</a></li>
+            <li><a href="https://peadf.com/guides/how-to-edit-a-pdf-on-iphone">How to edit a PDF on an iPhone</a></li>
+            <li><a href="https://peadf.com/guides/how-to-edit-a-pdf-on-windows-without-acrobat">How to edit a PDF on Windows without Acrobat</a></li>
+            <li><a href="https://peadf.com/guides/how-to-make-a-scanned-pdf-editable">How to make a scanned PDF editable</a></li>
+            <li><a href="https://peadf.com/guides/how-to-redact-a-pdf-for-free">How to redact a PDF for free</a></li>
+            <li><a href="https://peadf.com/guides/does-white-out-remove-text-from-a-pdf">Does white-out remove text from a PDF?</a></li>
+            <li><a href="https://peadf.com/guides">All peadf guides</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Compare</h3>
+          <ul>
+            <li><a href="https://peadf.com/vs/smallpdf">peadf vs Smallpdf</a></li>
+            <li><a href="https://peadf.com/vs/docsend">peadf vs DocSend</a></li>
+            <li><a href="https://peadf.com/vs/tiiny-host">peadf vs Tiiny Host</a></li>
+            <li><a href="https://peadf.com/vs/pdfdeck">peadf vs PDFDeck</a></li>
+            <li><a href="https://peadf.com/vs">All comparisons</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="elsewhere">
+      <header><h2 id="elsewhere">peadf elsewhere</h2></header>
+      <div class="cols">
+        <div>
+          <h3>Reviews and news</h3>
+          <ul>
+            <li><a href="https://www.trustpilot.com/review/peadf.com">peadf reviews on Trustpilot</a></li>
+            <li><a href="https://www.producthunt.com/products/peadf-2">peadf on Product Hunt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Service</h3>
+          <ul>
+            <li><a href="https://peadf.instatus.com/">peadf service status</a></li>
+            <li><a href="https://peadf.com/about">About peadf</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="faq">
+      <header><h2 id="faq">Questions people ask about peadf</h2></header>
+      <div class="qa">
+        <div>
+          <h3>Can I edit the existing text in a PDF?</h3>
+          <p>Yes. Click a line and retype it. peadf keeps the original embedded font, size and colour, and the paragraph re-wraps as you type.</p>
+        </div>
+        <div>
+          <h3>Are my files uploaded when I edit?</h3>
+          <p>No. Editing, form filling, redaction and OCR all run in your browser. A file only leaves your device if you choose to share it as a link.</p>
+        </div>
+        <div>
+          <h3>Can I update a shared PDF without changing the link?</h3>
+          <p>Yes. Replace the file and the same link and QR code open the new version, so printed codes and old messages still work.</p>
+        </div>
+        <div>
+          <h3>Is peadf free?</h3>
+          <p>The editor and the PDF tools are free to use in the browser, with no watermark and no sign-up to start. Downloading an edited PDF needs an account, and PDF hosting has a free plan.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="more">
+      <header><h2 id="more">Also from Scripted Tools</h2></header>
+      <div class="siblings">
+        <article class="p-qr">
+          <h3>QR Cake</h3>
+          <p>A free dynamic QR code generator. Add your logo, change where a code points after printing, and manage every code in one dashboard.</p>
+          <p class="more"><a href="/qr-cake/">About QR Cake</a><a href="https://qrcake.com/">Make a QR code on qrcake.com</a></p>
+        </article>
+        <article class="p-jam">
+          <h3>InviteJam</h3>
+          <p>Online invitations with RSVP tracking. Pick a design or upload your own, share one link and keep every reply in one guest list.</p>
+          <p class="more"><a href="/invitejam/">About InviteJam</a><a href="https://invitejam.com/">Create an invitation on invitejam.com</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <nav aria-labelledby="foot-products">
+        <h2 id="foot-products">Products</h2>
+        <ul>
+          <li><a href="/qr-cake/">QR Cake</a></li>
+          <li><a href="/peadf/">peadf</a></li>
+          <li><a href="/invitejam/">InviteJam</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="foot-apps">
+        <h2 id="foot-apps">Open the apps</h2>
+        <ul>
+          <li><a href="https://qrcake.com/">qrcake.com</a></li>
+          <li><a href="https://peadf.com/">peadf.com</a></li>
+          <li><a href="https://invitejam.com/">invitejam.com</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="foot-studio">
+        <h2 id="foot-studio">Scripted Tools</h2>
+        <ul>
+          <li><a href="https://scriptedtools.com/">scriptedtools.com</a></li>
+          <li><a href="https://github.com/scriptedtools">GitHub</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </nav>
+      <p class="fine">© 2026 Scripted Tools. QR Cake, peadf and InviteJam are made by Scripted Tools.</p>
+    </div>
+  </footer>
+</body>
+</html>
